@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="area" value="kankarbagh"></parameter>
+    <parameter name="city" value="patna"></parameter>
+    <classes>
+      <class name="qsp.DemoParametre"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

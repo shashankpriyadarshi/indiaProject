@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createuser]]>
+    </line>
+    <line>
+      <![CDATA[deleteuser]]>
+    </line>
+    <line>
+      <![CDATA[createproductr,true]]>
+    </line>
+    <line>
+      <![CDATA[deleteproduct,true]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61" started-at="2019-01-15T08:21:01Z" finished-at="2019-01-15T08:21:01Z">
+    <groups>
+      <group name="product">
+        <method signature="DemoTestNGGroup.createProduct()[pri:4, instance:qsp.DemoTestNGGroup@52feb982]" name="createProduct" class="qsp.DemoTestNGGroup"/>
+        <method signature="DemoTestNGGroup.deleteProduct()[pri:5, instance:qsp.DemoTestNGGroup@52feb982]" name="deleteProduct" class="qsp.DemoTestNGGroup"/>
+      </group> <!-- product -->
+      <group name="smoke">
+        <method signature="DemoTestNGGroup.createProduct()[pri:4, instance:qsp.DemoTestNGGroup@52feb982]" name="createProduct" class="qsp.DemoTestNGGroup"/>
+        <method signature="DemoTestNGGroup.createUser()[pri:1, instance:qsp.DemoTestNGGroup@52feb982]" name="createUser" class="qsp.DemoTestNGGroup"/>
+      </group> <!-- smoke -->
+      <group name="user">
+        <method signature="DemoTestNGGroup.createUser()[pri:1, instance:qsp.DemoTestNGGroup@52feb982]" name="createUser" class="qsp.DemoTestNGGroup"/>
+        <method signature="DemoTestNGGroup.deleteUser()[pri:3, instance:qsp.DemoTestNGGroup@52feb982]" name="deleteUser" class="qsp.DemoTestNGGroup"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Default test" duration-ms="61" started-at="2019-01-15T08:21:01Z" finished-at="2019-01-15T08:21:01Z">
+      <class name="qsp.DemoTestNGGroup">
+        <test-method status="PASS" signature="login()[pri:0, instance:qsp.DemoTestNGGroup@52feb982]" name="login" is-config="true" duration-ms="13" started-at="2019-01-15T13:51:01Z" finished-at="2019-01-15T13:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:qsp.DemoTestNGGroup@52feb982]" name="createUser" duration-ms="9" started-at="2019-01-15T13:51:01Z" finished-at="2019-01-15T13:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createuser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:3, instance:qsp.DemoTestNGGroup@52feb982]" name="deleteUser" duration-ms="2" started-at="2019-01-15T13:51:01Z" finished-at="2019-01-15T13:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteuser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="createProduct()[pri:4, instance:qsp.DemoTestNGGroup@52feb982]" name="createProduct" duration-ms="1" started-at="2019-01-15T13:51:01Z" finished-at="2019-01-15T13:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createproductr,true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="deleteProduct()[pri:5, instance:qsp.DemoTestNGGroup@52feb982]" name="deleteProduct" duration-ms="1" started-at="2019-01-15T13:51:01Z" finished-at="2019-01-15T13:51:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteproduct,true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- qsp.DemoTestNGGroup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
